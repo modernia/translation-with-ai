@@ -8,8 +8,8 @@ export default component$(() => {
   return (
     <footer>
       <div class="container">
-        <a href="https://www.builder.io/" target="_blank" class={styles.anchor}>
-          <span>Made with ♡ by Builder.io</span>
+        <a href="https://www.github.com/modernia/" target="_blank" class={styles.anchor}>
+          <span>Made with ♡ by Miguel Martinez</span>
           <span class={styles.spacer}>|</span>
           <span>{serverTime.value.date}</span>
         </a>
